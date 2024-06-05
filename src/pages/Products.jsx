@@ -1,5 +1,5 @@
 import { ProductList } from "../components/ProductList";
-import { getProducts } from "../components/fakeApi";
+import { getProducts } from "../fakeApi";
 
 export default function Products() {
   const products = getProducts();

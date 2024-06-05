@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductsDetails";
 import NotFound from "./pages/NotFound";
-import css from "./App.module.css";
+import css from "../src/App.module.css";
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
