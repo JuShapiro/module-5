@@ -1,3 +1,12 @@
+import { ProductList } from "../components/ProductList";
+import { getProducts } from "../components/fakeApi";
+
 export default function Products() {
-  return <div>Products Page</div>;
+  const products = getProducts();
+
+  return (
+    <main>
+      <ProductList products={products} />
+    </main>
+  );
 }
